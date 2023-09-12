@@ -20,9 +20,10 @@ public class Main
     public static void main(String[] args)
     {
            B b = new B();
-           String first = b.meth();
+           A a = new A();
+           String first = a.meth();
            String second = b.meth();
            System.out.println(first);
-            System.out.println(second);
+           System.out.println(second);
     }
 }
